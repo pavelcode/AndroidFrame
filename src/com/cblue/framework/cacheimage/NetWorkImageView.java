@@ -1,6 +1,9 @@
 package com.cblue.framework.cacheimage;
 
 
+import com.cblue.framework.R;
+import com.cblue.framework.cacheimage.BitmapLoader.OnBitmapLoadFinishedListener;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -15,8 +18,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.cblue.framework.cacheimage.BitmapLoader.OnBitmapLoadFinishedListener;
-import com.xingrun.kuaixue.R;
+
 
 /**
  * 自定义View
@@ -78,7 +80,7 @@ public class NetWorkImageView extends ImageView {
 		this.lastUrl = url;
 		if(isForceLoad ? true : !lastUrl.equals(alreadySetBitmapUrl)) {
 			Bitmap bitmap = mBitmapLoader.loadBitmap(lastUrl, new OnBitmapLoadFinishedListener() {
-				@Override
+				
 				public void onBitmapLoadFinished(Bitmap imageBitmap,String imageUrl) {
 					if(imageUrl.equals(lastUrl)) {
 						setImageBitmap(imageBitmap);

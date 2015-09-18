@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.xingrun.kuaixue;
+package com.cblue.framework;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

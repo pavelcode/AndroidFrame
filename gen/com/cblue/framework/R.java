@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.xingrun.kuaixue;
+package com.cblue.framework;
 
 public final class R {
     public static final class anim {
@@ -238,9 +238,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #NetWorkImageView_isShowRoundCorner com.xingrun.kuaixue:isShowRoundCorner}</code></td><td></td></tr>
-           <tr><td><code>{@link #NetWorkImageView_roundHeight com.xingrun.kuaixue:roundHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #NetWorkImageView_roundWidth com.xingrun.kuaixue:roundWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #NetWorkImageView_isShowRoundCorner com.cblue.framework:isShowRoundCorner}</code></td><td></td></tr>
+           <tr><td><code>{@link #NetWorkImageView_roundHeight com.cblue.framework:roundHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #NetWorkImageView_roundWidth com.cblue.framework:roundWidth}</code></td><td></td></tr>
            </table>
            @see #NetWorkImageView_isShowRoundCorner
            @see #NetWorkImageView_roundHeight
@@ -250,7 +250,7 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.xingrun.kuaixue.R.attr#isShowRoundCorner}
+          <p>This symbol is the offset where the {@link com.cblue.framework.R.attr#isShowRoundCorner}
           attribute's value can be found in the {@link #NetWorkImageView} array.
 
 
@@ -260,11 +260,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.xingrun.kuaixue:isShowRoundCorner
+          @attr name com.cblue.framework:isShowRoundCorner
         */
         public static final int NetWorkImageView_isShowRoundCorner = 2;
         /**
-          <p>This symbol is the offset where the {@link com.xingrun.kuaixue.R.attr#roundHeight}
+          <p>This symbol is the offset where the {@link com.cblue.framework.R.attr#roundHeight}
           attribute's value can be found in the {@link #NetWorkImageView} array.
 
 
@@ -276,11 +276,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.xingrun.kuaixue:roundHeight
+          @attr name com.cblue.framework:roundHeight
         */
         public static final int NetWorkImageView_roundHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.xingrun.kuaixue.R.attr#roundWidth}
+          <p>This symbol is the offset where the {@link com.cblue.framework.R.attr#roundWidth}
           attribute's value can be found in the {@link #NetWorkImageView} array.
 
 
@@ -292,7 +292,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.xingrun.kuaixue:roundWidth
+          @attr name com.cblue.framework:roundWidth
         */
         public static final int NetWorkImageView_roundWidth = 0;
     };

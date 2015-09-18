@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.cblue.framework.R;
 import com.cblue.framework.activity.BaseActivity;
 import com.cblue.framework.bean.BaseResponse;
 import com.cblue.framework.bean.LoginResponse;
@@ -21,7 +22,6 @@ import com.cblue.framework.parser.LoginBaseParser;
 import com.cblue.framework.util.LogUtil;
 import com.cblue.framework.util.NetUtil;
 import com.cblue.service.user.bean.UserInfo;
-import com.xingrun.kuaixue.R;
 
 public class LoginActivity extends BaseActivity {
 	

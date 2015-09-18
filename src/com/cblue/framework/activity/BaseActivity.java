@@ -15,11 +15,11 @@ import android.view.WindowManager;
 import android.view.WindowManager.BadTokenException;
 import android.widget.Toast;
 
+import com.cblue.framework.R;
 import com.cblue.framework.application.SoftApplication;
 import com.cblue.framework.network.Request;
 import com.cblue.framework.network.HttpRequestAsyncTask.OnCompleteListener;
 import com.cblue.framework.util.NetUtil;
-import com.xingrun.kuaixue.R;
 
 
 
