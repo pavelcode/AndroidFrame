@@ -1,0 +1,40 @@
+package com.lcworld.licaishi.login.activity;
+
+
+import android.view.View;
+
+import com.lcworld.licaishi.R;
+import com.lcworld.licaishi.framework.activity.BaseActivity;
+
+public class LoginActivity extends BaseActivity {
+
+	@Override
+	public void setContentLayout() {
+		setContentView(R.layout.login);
+	}
+
+	@Override
+	public void dealLogicBeforeInitView() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void initView() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void dealLogicAfterInitView() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void onClickEvent(View view) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

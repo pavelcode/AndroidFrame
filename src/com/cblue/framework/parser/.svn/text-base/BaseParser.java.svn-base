@@ -1,0 +1,9 @@
+package com.lcworld.licaishi.framework.parser;
+
+import com.lcworld.licaishi.framework.bean.BaseResponse;
+
+public abstract class BaseParser<T extends BaseResponse> {
+	public static final String ERROR_CODE = "code";
+	public static final String MSG = "msg";
+	public abstract T parse(String paramString); 
+}

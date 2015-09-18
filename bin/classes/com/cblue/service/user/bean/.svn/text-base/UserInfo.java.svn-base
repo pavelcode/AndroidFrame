@@ -1,0 +1,39 @@
+package com.lcworld.licaishi.login.bean;
+
+import java.io.Serializable;
+
+public class UserInfo implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7186526560446769302L;
+	
+	public String user_id;
+	public String user_name;
+	public String user_email;
+    public String phone;
+    public int isopen = -1000;
+    public String link_address;
+    public String organization;
+    public String duty;
+    public String pattern;
+    public String act_prov;
+    public String act_city;
+    
+    public String head_url;
+
+	@Override
+	public String toString() {
+		return "UserInfo [user_id=" + user_id + ", user_name=" + user_name
+				+ ", user_email=" + user_email + ", phone=" + phone
+				+ ", isopen=" + isopen + ", link_address=" + link_address
+				+ ", organization=" + organization + ", duty=" + duty
+				+ ", pattern=" + pattern + ", act_prov=" + act_prov
+				+ ", act_city=" + act_city + ", head_url=" + head_url + "]";
+	}
+    
+    
+    
+
+}

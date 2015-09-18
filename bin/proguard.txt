@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:27
+-keep class com.cblue.framework.application.SoftApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.cblue.service.user.activity.LoginActivity { <init>(...); }
+
